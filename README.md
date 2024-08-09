@@ -10,6 +10,7 @@ Below is a chart showing how we will proceed-
 # Warning
 
 It is not recommended to use this bot on real money. Any loss won't be counted as my fault. This project is made to help me grow my knowledge as well as share a structured document for others to understand how automated trading work. I highly recommend to only use Fake money to test this bot (Paper trading).
+
 ---------------------------------------------------------------------
 
 ## Requirements
