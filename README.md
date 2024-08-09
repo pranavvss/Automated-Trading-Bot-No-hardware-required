@@ -52,7 +52,7 @@ The bot employs a multi-indicator strategy that combines several technical analy
 # STEPS (Full Guide Below)
 
 ---------------------------------------------------------------------
-Step 1. Set Up Your Development Environment 
+### Step 1. Set Up Your Development Environment 
 
 1.1 Install python 3.x (i prefer 3.11), Install Your preferred ide (I like Visual Studio Code) further Open cmd and type the command to verify that python was installed.
 ```
@@ -64,7 +64,7 @@ python --version
 pip install pandas numpy matplotlib yfinance ta ccxt
 ```
 ---------------------------------------------------------------------
-Step 2. Gathering Market Data 
+### Step 2. Gathering Market Data 
 
 2.1 Our trading bot will need Data of past years to analyze trends and generate a trading strategy, for which we are using yfinance)
 
@@ -89,7 +89,7 @@ You can change AAPL with your desired Crpto Currency with the start and end date
 For eg. data = fetch_data('USDC')
 ```
 ---------------------------------------------------------------------
-Step 3. Implementing the Trading Strategy
+### Step 3. Implementing the Trading Strategy
 
 3.1 We will RSI, Relative Strength Index to measure the magnitude of recent price changes to find did traders overbuy or oversell, then MACD, Moving Average Convergence Divergence will reveal us the relationship b/w two moving average of this Crypto currency's price, We will also use Bollinger Bands to Set above and below levels, At last we'll compare closing price of this crypto currency to a range of price of a certain period using Stochastic Oscillator. 
 
@@ -147,7 +147,7 @@ print(data[['Close', 'Buy_Signal', 'Sell_Signal']].tail())
 ```
 ---------------------------------------------------------------------
 
-Step 4. Implementing Risk Management (Will add a code which will tell the bot a limit) Risk Management is very important, so that we are utilize our resource in proper manner, and when the time is right.
+### Step 4. Implementing Risk Management (Will add a code which will tell the bot a limit) Risk Management is very important, so that we are utilize our resource in proper manner, and when the time is right.
 - Risk management depends on individuals, How much person x can risk to loose can differ from person y.
 
 4.1 Now we will calculate Position Size
@@ -172,7 +172,7 @@ print(data[['Close', 'ATR', 'Position_Size']].tail())
 Note: Under paper trading you get around 100k INR or equivalent, we are taking out 10k INR as our initial balance and we will trade on this 10k INR.
 
 ---------------------------------------------------------------------
-Step 5. Backtesting the Strategy (Backtesting is the process of testing a trading strategy on historical data to see how it would have performed. It’s crucial to validate a strategy before deploying it in a live trading environment(Where real money is at stake.)
+### Step 5. Backtesting the Strategy (Backtesting is the process of testing a trading strategy on historical data to see how it would have performed. It’s crucial to validate a strategy before deploying it in a live trading environment(Where real money is at stake.)
 
 5.1 Following are the code we'll add for backtesting
 ``` 
@@ -203,7 +203,7 @@ print(f"Final balance after backtesting: ${final_balance:.2f}")
 ```
 ---------------------------------------------------------------------
 
-Step 6. Automating the Trading Bot
+### Step 6. Automating the Trading Bot
 
 6.1 Now we'll Connect to a Cryptocurrency Exchange
 - Use the ccxt library to interact with exchanges like Binance, Coinbase, or others. Ensure that you have an account with API keys generated.
@@ -241,7 +241,7 @@ def automate_advanced_trading(api_key, api_secret, data, risk_per_trade=0.02):
 ```
 ---------------------------------------------------------------------
 
-Step 7: Deploying the Bot on a Cloud Service (if you want the bot to run 24/7)
+### Step 7: Deploying the Bot on a Cloud Service (if you want the bot to run 24/7)
 
 7.1 Choosing a Cloud Service, I prefer AWS.
 
