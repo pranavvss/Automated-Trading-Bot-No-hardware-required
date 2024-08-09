@@ -1,4 +1,6 @@
-# Automated-Trading-Bot-No-hardware-required-
+# Automated-Trading-Bot-No-hardware-required- 
+
+This automated trading bot provides a robust framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. While the bot is ready for deployment, continuous monitoring and optimization are recommended to adapt to changing market conditions. This document serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment.
 
 ## Requirements
 1. Programming Language- Python: The bot is implemented in Python which is ideal for data analysis, algorithmic trading, and automation tasks.
