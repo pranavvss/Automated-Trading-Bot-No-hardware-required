@@ -2,6 +2,8 @@
 
 This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can ready the documents of all the libraries mentioned below.
 
+![Our Plan](https://github.com/user-attachments/assets/422b4a81-f6aa-4058-a1ca-ded4a5880bf2)
+
 ---------------------------------------------------------------------
 # Warning
 It is not recommended to use this bot on real money. Any loss won't be counted as my fault. This project is made to help me grow my knowledge as well as share a structured document for others to understand how automated trading work. I highly recommend to only use Fake money to test this bot (Paper trading).
