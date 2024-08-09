@@ -17,7 +17,7 @@ It is not recommended to use this bot on real money. Any loss won't be counted a
 - [ta](https://technical-analysis-library-in-python.readthedocs.io/en/latest/)
 - [ccxt](https://docs.ccxt.com/#/)
   
-or If you want to trade in forex ccxt can be used too but fxcmpy is better in my knowledge. (as markets are always open)
+or If you want to trade in forex(as markets are always open) ccxt can be used too but fxcmpy is better in my knowledge. 
 
 - [fxcmpy](https://fxcm-api.readthedocs.io/en/latest/)
 
