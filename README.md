@@ -2,7 +2,7 @@
 
 This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can ready the documents of all the libraries mentioned below.
 
-![Our Plan](https://github.com/user-attachments/assets/422b4a81-f6aa-4058-a1ca-ded4a5880bf2 )width="300"
+<img src="plan.png" width="300" />
 
 ---------------------------------------------------------------------
 # Warning
