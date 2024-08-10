@@ -15,7 +15,8 @@ It is not recommended to use this bot on real money. Any loss won't be counted a
 
 ## Requirements
 1. Programming Language- Python: The bot is implemented in Python which is ideal for data analysis, algorithmic trading, and automation tasks. 
-2 Python Libraries
+
+2. Python Libraries
 - [pandas](https://pandas.pydata.org/docs/getting_started/index.html#getting-started)
 - [numpy](https://numpy.org/devdocs/user/absolute_beginners.html)
 - [matplotlib(Optional)](https://numpy.org/devdocs/user/absolute_beginners.html)
