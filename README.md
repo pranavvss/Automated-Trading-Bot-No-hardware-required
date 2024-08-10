@@ -31,7 +31,7 @@ or If you want to trade in forex(as markets are always open from Monday to Frida
 Read all the documents if you are not familiar with their workings.
   
 3. Tools and Environment - Python Interpreter or Any Ide (For eg. Visual Studio Code or PyCharm)
-4. Cloud Service (Optional): AWS EC2, Google Cloud to deploy the bot for 24/7 operation. (If preffer AWS, it is free for 1 year with new gmail account)
+4. Cloud Service (Optional, If you want to host a bot that keeps running 24/7 youll need a Virtual machine): AWS EC2, Google Cloud to deploy the bot for 24/7 operation. (I preffer AWS, it is free for 1 year with new gmail account)
 5. API Keys: If deploying live, you will need API keys from a cryptocurrency exchange like Binance or Coinbase or any other to execute trades.
 ---------------------------------------------------------------------
 
