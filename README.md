@@ -8,7 +8,8 @@ Below is a chart showing how we will proceed-
 <img src="https://github.com/user-attachments/assets/ce63ac01-8343-413e-83c9-143378cd49a6" width="300" />
 
 ---------------------------------------------------------------------
-## Warning
+
+>[!WARNING]
 
 It is not recommended to use this bot on real money. Any loss won't be counted as my fault. This project is made to help me grow my knowledge as well as share a structured document for others to understand how automated trading work. I highly recommend to only use Fake money to test this bot (Paper trading).
 
