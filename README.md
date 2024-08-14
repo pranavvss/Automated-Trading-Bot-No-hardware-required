@@ -294,4 +294,5 @@ Use monitoring tools like CloudWatch (AWS), Stackdriver (GCP), or simple logging
 * Use real Money to trade with this bot on your own risk.
 * This is posted only for education purpose and should be used for that only.
 
-* If you like more content like this, Read my [Automated-Trading-Bot-on-Raspberry-Pi](https://github.com/pranavvss/Automated-Trading-Bot-on-Raspberry-Pi) to learn how to make a automated trading bot using a hardware and trade on it 24/7. (If you follow this method you won't have to buy any cloud services for deploying your code).
+> [!NOTE]
+>If you like more content like this, Read my [Automated-Trading-Bot-on-Raspberry-Pi](https://github.com/pranavvss/Automated-Trading-Bot-on-Raspberry-Pi) to learn how to make a automated trading bot using a hardware and trade on it 24/7. (If you follow this method you won't have to buy any cloud services for deploying your code).
