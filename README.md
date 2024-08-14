@@ -56,21 +56,23 @@ The bot employs a multi-indicator strategy that combines several technical analy
 ### Step 1. Set Up Your Development Environment 
 
 1.1 Install python 3.x (i prefer 3.11), Install Your preferred ide (I like Visual Studio Code) further Open cmd and type the command to verify that python was installed.
-```
+
+```python
 python --version
 ```
 
 1.2 Install Required Libraries, open your command prompt (cmd or terminal in your ide) and run following command to install all required libraies at one go.
-```
+```python
 pip install pandas numpy matplotlib yfinance ta ccxt
 ```
 ---------------------------------------------------------------------
+
 ### Step 2. Gathering Market Data 
 
 2.1 Our trading bot will need Data of past years to analyze trends and generate a trading strategy, for which we are using yfinance)
 
 2.2 The following code is used to fetch data 
-```
+```python
 import yfinance as yf
 import pandas as pd
 
@@ -86,7 +88,7 @@ print(data.head())
 
 Note:
 You can change AAPL with your desired Crpto Currency with the start and end date data you want to gather (Remember add the Ticker symbol (Means if you want to trade in "USD COIN" then under fetch_data() you need to enter ticker symbol of "USD COIN" which is USDC.
-```
+```python
 For eg. data = fetch_data('USDC')
 ```
 ---------------------------------------------------------------------
@@ -95,7 +97,7 @@ For eg. data = fetch_data('USDC')
 3.1 We will RSI, Relative Strength Index to measure the magnitude of recent price changes to find did traders overbuy or oversell, then MACD, Moving Average Convergence Divergence will reveal us the relationship b/w two moving average of this Crypto currency's price, We will also use Bollinger Bands to Set above and below levels, At last we'll compare closing price of this crypto currency to a range of price of a certain period using Stochastic Oscillator. 
 
 3.2 The following code calculates these indicators for use in our strategy
-```
+```python
 from ta.momentum import RSIIndicator, StochasticOscillator
 from ta.trend import MACD
 from ta.volatility import BollingerBands
@@ -128,7 +130,7 @@ print(data[['RSI', 'MACD', 'BB_Upper', 'BB_Lower', 'Stoch_K', 'Stoch_D']].tail()
 ```
 
 3.3 Now we'll generate signals based on the combination of indicators
-```
+```python
 def generate_signals(data):
     # Buy when RSI < 30, MACD crosses above signal, and price is below lower Bollinger Band
     data['Buy_Signal'] = ((data['RSI'] < 30) & 
@@ -152,7 +154,7 @@ print(data[['Close', 'Buy_Signal', 'Sell_Signal']].tail())
 - Risk management depends on individuals, How much person x can risk to loose can differ from person y.
 
 4.1 Now we will calculate Position Size
- ``` 
+ ``` python
 from ta.volatility import AverageTrueRange
 
 def calculate_position_size(data, balance, risk_per_trade=0.02):
@@ -176,7 +178,7 @@ Note: Under paper trading you get around 100k INR or equivalent, we are taking o
 ### Step 5. Backtesting the Strategy (Backtesting is the process of testing a trading strategy on historical data to see how it would have performed. It’s crucial to validate a strategy before deploying it in a live trading environment(Where real money is at stake.)
 
 5.1 Following are the code we'll add for backtesting
-``` 
+``` python
 def backtest_advanced_strategy(data, initial_balance=10000, risk_per_trade=0.02):
     balance = initial_balance
     position = 0  # 0: no position, >0: holding a long position
@@ -210,7 +212,7 @@ print(f"Final balance after backtesting: ${final_balance:.2f}")
 - Use the ccxt library to interact with exchanges like Binance, Coinbase, or others. Ensure that you have an account with API keys generated.
 
 6.2 Code for automated trading
-```
+```python
 import ccxt
 
 def automate_advanced_trading(api_key, api_secret, data, risk_per_trade=0.02):
