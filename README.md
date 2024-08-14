@@ -55,7 +55,7 @@ The bot employs a multi-indicator strategy that combines several technical analy
 **STEPS (Full Guide Below)**
 
 ---------------------------------------------------------------------
-**Step 1. Set Up Your Development Environment **
+Step 1. Set Up Your Development Environment 
 
 1.1 Install python 3.x (i prefer 3.11), Install Your preferred ide (I like Visual Studio Code) further Open cmd and type the command to verify that python was installed.
 
