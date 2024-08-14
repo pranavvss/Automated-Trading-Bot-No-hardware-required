@@ -1,6 +1,7 @@
 # Automated-Trading-Bot-No-hardware-required 
 
-This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can ready the documents of all the libraries mentioned below. 
+>[!NOTE]
+>This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can ready the documents of all the libraries mentioned below. 
 
 Below is a chart showing how we will proceed- 
 
