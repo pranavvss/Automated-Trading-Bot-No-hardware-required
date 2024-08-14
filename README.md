@@ -25,18 +25,19 @@ Below is a chart showing how we will proceed-
 - [ta](https://technical-analysis-library-in-python.readthedocs.io/en/latest/)
 - [ccxt](https://docs.ccxt.com/#/)
   
-or If you want to trade in forex(as markets are always open from Monday to Friday) ccxt can be used indeed but i prefer fxcmpy.
+  or If you want to trade in forex(as markets are always open from Monday to Friday) ccxt can be used indeed but i prefer fxcmpy.
 
 - [fxcmpy](https://fxcm-api.readthedocs.io/en/latest/)
 
-Read all the documents if you are not familiar with their workings.
+**Read all the documents if you are not familiar with their workings.**
   
 3. Tools and Environment - Python Interpreter or Any Ide (For eg. Visual Studio Code or PyCharm)
 4. Cloud Service (Optional, If you want to host a bot that keeps running 24/7 youll need a Virtual machine): AWS EC2, Google Cloud to deploy the bot for 24/7 operation. (I preffer AWS, it is free for 1 year with new gmail account)
 5. API Keys: If deploying live, you will need API keys from a cryptocurrency exchange like Binance or Coinbase or any other to execute trades.
 ---------------------------------------------------------------------
 
-## Overview
+**Overview**
+
 1. Strategy-
 The bot employs a multi-indicator strategy that combines several technical analysis tools to generate buy and sell signals. The main indicators used are: Relative Strength Index (RSI), Moving Average Convergence Divergence (MACD), Bollinger Bands and Stochastic Oscillator.
 
@@ -51,10 +52,10 @@ The bot employs a multi-indicator strategy that combines several technical analy
 
 ---------------------------------------------------------------------
 
-# STEPS (Full Guide Below)
+**STEPS (Full Guide Below)**
 
 ---------------------------------------------------------------------
-### Step 1. Set Up Your Development Environment 
+**Step 1. Set Up Your Development Environment **
 
 1.1 Install python 3.x (i prefer 3.11), Install Your preferred ide (I like Visual Studio Code) further Open cmd and type the command to verify that python was installed.
 
