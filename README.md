@@ -255,6 +255,10 @@ def automate_advanced_trading(api_key, api_secret, data, risk_per_trade=0.02):
 # print(f"Final balance after automated trading: ${final_balance:.2f}")
 
 ```
+After process is executed you get the updated price in your account with adjusted losses/gains the bot registered.
+
+![image](https://github.com/user-attachments/assets/4e2f1ac9-a3be-4ff5-ab68-7db4e92f6027)
+
 ---------------------------------------------------------------------
 
 ### Step 7: Deploying the Bot on a Cloud Service (if you want the bot to run 24/7)
