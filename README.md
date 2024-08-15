@@ -177,6 +177,7 @@ print(data[['Close', 'ATR', 'Position_Size']].tail())
 Note: Under paper trading you get around 100k INR or equivalent, we are taking out 10k INR as our initial balance and we will trade on this 10k INR.
 
 ---------------------------------------------------------------------
+
 ### Step 5. Backtesting the Strategy (Backtesting is the process of testing a trading strategy on historical data to see how it would have performed. It’s crucial to validate a strategy before deploying it in a live trading environment(Where real money is at stake.)
 
 5.1 Following are the code we'll add for backtesting
