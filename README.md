@@ -63,6 +63,9 @@ Step 1. Set Up Your Development Environment
 python --version
 ```
 
+![image](https://github.com/user-attachments/assets/d8b7fcc0-ad87-475f-9405-0f67f0d3df66)
+
+
 1.2 Install Required Libraries, open your command prompt (cmd or terminal in your ide) and run following command to install all required libraies at one go.
 ```python
 pip install pandas numpy matplotlib yfinance ta ccxt
@@ -74,11 +77,17 @@ pip install pandas numpy matplotlib yfinance ta ccxt
 2.1 Our trading bot will need Data of past years to analyze trends and generate a trading strategy, for which we are using yfinance)
 
 2.2 The following code is used to fetch data 
+
+Example of how yfinance fetches data of any stocks within time period suggested.
+
+![image](https://github.com/user-attachments/assets/5ce8a049-3f31-48bf-b8bd-7315fa69fc97)
+
+
 ```python
 import yfinance as yf
 import pandas as pd
 
-def fetch_data(ticker, start_date="2015-01-01", end_date="2023-01-01"):
+def fetch_data(ticker, start_date="2015-01-01", end_date="2023-01-01"): 
     # Fetch historical data from Yahoo Finance
     data = yf.download(ticker, start=start_date, end=end_date)
     return data
@@ -89,6 +98,7 @@ print(data.head())
 ```
 
 Note:
+Ticker is like a nickname give the to different stocks, Which ever stocks/virtual currency you want to trade in make sure to search tikker name of it.
 You can change AAPL with your desired Crpto Currency with the start and end date data you want to gather (Remember add the Ticker symbol (Means if you want to trade in "USD COIN" then under fetch_data() you need to enter ticker symbol of "USD COIN" which is USDC.
 ```python
 For eg. data = fetch_data('USDC')
