@@ -1,5 +1,3 @@
-![Screenshot 2024-08-20 003808](https://github.com/user-attachments/assets/a0ffb374-a49b-4546-9a58-aae8bddbd698)# Automated-Trading-Bot-No-hardware-required 
-
 >[!NOTE]
 >This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can further read the documents of all the libraries mentioned below. 
 
@@ -13,7 +11,8 @@ Below is a chart showing how we will proceed-
 
 **1 year analysis **
 
-![Screenshot 2024-08-20 003808](https://github.com/user-attachments/assets/724a6c54-5789-4090-afe6-aec88c199b85)
+![Screenshot 2024-08-20 003808](https://github.com/user-attachments/assets/2a7774b2-363f-4275-948e-667f932fce5b)
+
 
 **3 years analysis**
 
