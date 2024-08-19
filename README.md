@@ -7,7 +7,7 @@ Below is a chart showing how we will proceed-
 
 ---------------------------------------------------------------------
 
-**Some past year analysis pictures (pretty accurate) (Below)**
+**Some past year analysis pictures - Apple stocks(APPL) (pretty accurate) (Below)**
 
 **1 year analysis**
 
