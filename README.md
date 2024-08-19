@@ -9,7 +9,7 @@ Below is a chart showing how we will proceed-
 
 **Some past year analysis pictures (pretty accurate) (Below)**
 
-**1 year analysis **
+**1 year analysis**
 
 ![Screenshot 2024-08-20 003808](https://github.com/user-attachments/assets/2a7774b2-363f-4275-948e-667f932fce5b)
 
