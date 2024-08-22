@@ -1,5 +1,5 @@
 >[!NOTE]
->This automated trading bot provides a advance framework for algorithmic trading, utilizing advanced technical indicators and a carefully designed strategy. This document by me serves as a guide for understanding and setting up the bot, ensuring it runs efficiently in a live trading environment. This Document is not for beginners, You need to have good knowledge of python atleast and you can further read the documents of all the libraries mentioned below. 
+The primary objective of this project is to develop a model capable of predicting future stock prices for Apple Inc. (AAPL) using a combination of Long Short-Term Memory (LSTM) neural networks, technical analysis, fundamental analysis, and sentiment analysis. The goal is to enhance the predictive accuracy by incorporating multiple data sources and advanced machine learning techniques.
 
 Below is a chart showing how we will proceed- 
 
@@ -7,19 +7,13 @@ Below is a chart showing how we will proceed-
 
 ---------------------------------------------------------------------
 
-**Some past year analysis pictures - Apple stocks(APPL) (pretty accurate) (Below)**
+Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and Social Media gave a combined prediction prediction.
 
-**1 year analysis**
-
-![Screenshot 2024-08-20 003808](https://github.com/user-attachments/assets/2a7774b2-363f-4275-948e-667f932fce5b)
-
-
-**3 years analysis**
-
-![image](https://github.com/user-attachments/assets/52fa165b-fc29-4ac8-8500-83da6f765d37)
-
-![image](https://github.com/user-attachments/assets/b37ed0a4-1147-4f98-8a10-edd1949a3202)
-
+<img src="https://github.com/user-attachments/assets/871df62f-fd86-4fc3-80b9-70c7ad094d53" width="300" />
+<img src="https://github.com/user-attachments/assets/eff104e8-ed8e-4457-b9ab-f4d88844a706" width="300" />
+<img src="https://github.com/user-attachments/assets/52b9f4b1-a777-4219-8a47-e664e17af876" width="300" />
+<img src="https://github.com/user-attachments/assets/5e46131a-a56e-48a4-8ab9-e9e4d9241a4d" width="300" />
+<img src="https://github.com/user-attachments/assets/3ca29fbf-23fb-4f46-a920-b3fe99b15d39" width="300" />
 
 > [!CAUTION]
 >It is not recommended to use this bot on real money. Any loss won't be counted as my fault. This project is made to help me grow my knowledge as well as share a structured document for others to understand how automated trading work. I highly recommend to only use Fake money to test this bot (Paper trading).
