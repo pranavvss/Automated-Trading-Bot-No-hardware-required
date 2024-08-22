@@ -17,7 +17,7 @@ Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and S
 
 **February 2024 - $180.30,**
 
-**predicted prices for 2026 is $300 +)**
+**predicted prices for August 2026 is $300 +)**
 
 <img src="https://github.com/user-attachments/assets/3ca29fbf-23fb-4f46-a920-b3fe99b15d39" width="950" />
 
