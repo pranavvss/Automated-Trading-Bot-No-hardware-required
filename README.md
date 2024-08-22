@@ -10,7 +10,6 @@ Below is a chart showing how we will proceed-
 
 Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and Social Media gave a combined prediction prediction.
 
-<img src="https://github.com/user-attachments/assets/eff104e8-ed8e-4457-b9ab-f4d88844a706" width="950" />
 <img src="https://github.com/user-attachments/assets/5e46131a-a56e-48a4-8ab9-e9e4d9241a4d" width="950" />
 
 **Prediction for Apple stock prices for 2026 on the basis of LSTM model **
