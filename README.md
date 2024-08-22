@@ -1,5 +1,6 @@
 >[!NOTE]
 The primary objective of this project is to develop a model capable of predicting future stock prices for Apple Inc. (AAPL) using a combination of Long Short-Term Memory (LSTM) neural networks, technical analysis, fundamental analysis, and sentiment analysis. The goal is to enhance the predictive accuracy by incorporating multiple data sources and advanced machine learning techniques.
+>Additionally combined with a automated bot that places oder on the basis of above prediction done
 
 Below is a chart showing how we will proceed- 
 
