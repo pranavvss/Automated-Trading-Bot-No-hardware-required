@@ -9,11 +9,11 @@ Below is a chart showing how we will proceed-
 
 Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and Social Media gave a combined prediction prediction.
 
-<img src="https://github.com/user-attachments/assets/871df62f-fd86-4fc3-80b9-70c7ad094d53" width="550" />
-<img src="https://github.com/user-attachments/assets/eff104e8-ed8e-4457-b9ab-f4d88844a706" width="550" />
-<img src="https://github.com/user-attachments/assets/52b9f4b1-a777-4219-8a47-e664e17af876" width="550" />
-<img src="https://github.com/user-attachments/assets/5e46131a-a56e-48a4-8ab9-e9e4d9241a4d" width="550" />
-<img src="https://github.com/user-attachments/assets/3ca29fbf-23fb-4f46-a920-b3fe99b15d39" width="550" />
+<img src="https://github.com/user-attachments/assets/871df62f-fd86-4fc3-80b9-70c7ad094d53" width="750" />
+<img src="https://github.com/user-attachments/assets/eff104e8-ed8e-4457-b9ab-f4d88844a706" width="750" />
+<img src="https://github.com/user-attachments/assets/52b9f4b1-a777-4219-8a47-e664e17af876" width="750" />
+<img src="https://github.com/user-attachments/assets/5e46131a-a56e-48a4-8ab9-e9e4d9241a4d" width="750" />
+<img src="https://github.com/user-attachments/assets/3ca29fbf-23fb-4f46-a920-b3fe99b15d39" width="750" />
 
 > [!CAUTION]
 >It is not recommended to use this bot on real money. Any loss won't be counted as my fault. This project is made to help me grow my knowledge as well as share a structured document for others to understand how automated trading work. I highly recommend to only use Fake money to test this bot (Paper trading).
