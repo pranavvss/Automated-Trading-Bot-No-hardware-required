@@ -15,7 +15,7 @@ Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and S
 
 **Prediction for Apple stock prices for 2026 on the basis of LSTM model **
 
-**February 2024 - $180.30, **
+**February 2024 - $180.30,**
 
 **predicted prices for 2026 is $300 +)**
 
