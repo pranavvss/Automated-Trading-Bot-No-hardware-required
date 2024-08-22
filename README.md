@@ -13,7 +13,11 @@ Combination of LSTM, Fundamental Analysis Data, Sentiment Analysis of News and S
 <img src="https://github.com/user-attachments/assets/eff104e8-ed8e-4457-b9ab-f4d88844a706" width="950" />
 <img src="https://github.com/user-attachments/assets/5e46131a-a56e-48a4-8ab9-e9e4d9241a4d" width="950" />
 
-**Prediction for Apple stock prices for 2026 on the basis of LSTM model ( February 2024 - $180.30, predicted prices for 2026 is $300 +)**
+**Prediction for Apple stock prices for 2026 on the basis of LSTM model **
+
+**February 2024 - $180.30, **
+
+**predicted prices for 2026 is $300 +)**
 
 <img src="https://github.com/user-attachments/assets/3ca29fbf-23fb-4f46-a920-b3fe99b15d39" width="950" />
 
